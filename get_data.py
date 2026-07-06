@@ -15,7 +15,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent  # project/ root
 downloaded_path = snapshot_download(
     repo_id=HF_REPO_ID,
     repo_type="dataset",
-    allow_patterns=["Csv_files/*", "Encoded_protein/*"],
+    allow_patterns=["Data/Csv_files/*", "Models/protein_featurization/Encoded_protein/*"],
+    local_dir=".",
 )
 
 downloaded_path = Path(downloaded_path)

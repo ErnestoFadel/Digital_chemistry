@@ -53,6 +53,8 @@ project/
     |   `-- omnivore_pairwise_intra_assay_summary.csv
     `-- omnivore_short/
 
+In order to obtain the full structure clone the Github repository and run 'get_data.py'. 
+It will download the used dataset and encoded proteins from hugging face.
 
 --------------------------------------------------------------------------------
 MODELS
