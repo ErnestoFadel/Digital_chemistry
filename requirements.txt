@@ -1,0 +1,19 @@
+# General requirements for this project (DTI model, mean-prediction
+# baseline, data splitting, protein featurization, and figure generation).
+#
+# NOTE: The pairwise model (Models/Pairwise_model.py) uses an older,
+# pinned PyTorch version for compatibility with an NVIDIA GTX 980 Ti GPU.
+# Install its dependencies separately from Models/pairwise_requirements.txt
+# instead of this file. See the README for details.
+
+torch
+pytorch-lightning
+numpy
+pandas
+scipy
+scikit-learn
+rdkit
+transformers
+tqdm
+seaborn
+matplotlib

@@ -1,0 +1,19 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+
+# --- Project specific ---
+
+Data/Csv_files/
+Models/protein_featurization/Encoded_protein/
