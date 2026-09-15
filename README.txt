@@ -2,6 +2,8 @@
 BINDING AFFINITY RANKING VS. ABSOLUTE PREDICTION
 ================================================================================
 
+Contribution by Victor Sanctis, Ernesto Fadel and Mihn Khoa
+
 This project investigates binding affinity prediction between small
 molecules and protein kinase targets, comparing two framings: predicting
 absolute pIC50 values (regression) versus ranking compounds within an
